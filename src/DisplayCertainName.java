@@ -6,7 +6,7 @@ public class DisplayCertainName {
     {
         String url = "jdbc:postgresql://localhost:5432/jdbcTest";
         String username = "postgres";
-        String password = "jack123";
+        String password = "j*******";
 
         Connection connect = DriverManager.getConnection(url,username,password);
 
